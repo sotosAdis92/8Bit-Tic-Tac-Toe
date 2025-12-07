@@ -1,0 +1,913 @@
+@font-face{
+    font-family: 'Pixelify Sans';
+    src: url('PixelifySans-Regular.ttf');
+}
+#playbutton1{
+    -fx-pref-width: 280px;
+    -fx-pref-height: 82px;
+    -fx-background-image: url("playbutton.png");
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    transition: 0.3s;
+}
+
+#playbutton1:hover{
+    -fx-pref-width: 280px;
+    -fx-pref-height: 82px;
+    -fx-background-image: url("hov2pla.png");
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-cursor: hand;
+}
+#scenepane{
+    -fx-background-color: white;
+}
+
+#player1game{
+    -fx-pref-width: 280px;
+    -fx-pref-height: 82px;
+    -fx-background-image: url("player1g.png");
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    transition: 0.3s;
+}
+
+#player1game:hover{
+    -fx-pref-width: 280px;
+    -fx-pref-height: 82px;
+    -fx-background-image: url("player1ghover.png");
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-cursor: hand;
+}
+
+
+#startgamebutton{
+    -fx-pref-width: 350px;
+    -fx-pref-height: 76px;
+    -fx-background-image: url("kl.png");
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    transition: 0.3s;
+}
+
+#startgamebutton:hover{
+    -fx-pref-width: 350px;
+    -fx-pref-height: 76px;
+    -fx-background-image: url("hovstartga.png");
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-cursor: hand;
+}
+
+
+
+
+
+#gamesettings{
+    -fx-font-family: "Droid Serif";
+    -fx-font-size: 20px;
+    -fx-font-weight: 800;
+    -fx-max-width: 220px;
+    -fx-max-height: 40px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+#playersettings{
+    -fx-font-family: "Droid Serif";
+    -fx-font-size: 20px;
+    -fx-font-weight: 800;
+    -fx-max-width: 300px;
+    -fx-max-height: 40px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+#exitgame{
+    -fx-pref-width: 280px;
+    -fx-pref-height: 82px;
+    -fx-background-image: url("exitbutton.png");
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    transition: 0.3s;
+}
+
+#exitgame:hover{
+    -fx-pref-width: 280px;
+    -fx-pref-height: 82px;
+    -fx-background-image: url("exithov.png");
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-cursor: hand;
+}
+#maintitle{
+    -fx-pref-width: 800px;
+    -fx-pref-height: 150px;
+    -fx-background-image: url("titlev3.png");
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+}
+#nameLabel{
+    -fx-pref-width: 230px;
+    -fx-pref-height: 90px;
+    -fx-background-image: url("plx.png");
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+}
+#nameLabelTwo{
+    -fx-pref-width: 230px;
+    -fx-pref-height: 90px;
+    -fx-background-image: url("plo.png");
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+}
+#player1name{
+    -fx-font-size: 30px;
+}
+#player2name{
+    -fx-font-size: 30px;
+}
+#player2score{
+     -fx-font-size: 40px;
+    -fx-font-family: 'Pixelify Sans';
+}
+#player1score{
+    -fx-font-size: 40px;
+    -fx-font-family: 'Pixelify Sans';
+}
+#labelrr{
+  -fx-font-family: "Pixelify Sans";
+    -fx-font-size: 40px;
+}
+#labelrr2{
+    -fx-font-family: "Pixelify Sans";
+    -fx-font-size: 40px;
+}
+
+
+#ticbutton1{
+    -fx-font-size: 70px;
+    -fx-border-width: 5px;
+    -fx-border-color: #000000;
+    -fx-font-family: 'Pixelify Sans';
+    -fx-background-color: white;
+    transition: 0.3s;
+}
+
+#ticbutton1:hover{
+    -fx-font-size: 70px;
+    -fx-border-width: 5px;
+    -fx-border-color: #000000;
+    -fx-font-family: 'Pixelify Sans';
+    -fx-background-color: #9e9e9d;
+    -fx-cursor: hand;
+}
+
+
+#ticbutton2{
+    -fx-font-size: 70px;
+    -fx-border-width: 5px;
+    -fx-border-color: #000000;
+    -fx-background-color: white;
+    -fx-font-family: 'Pixelify Sans';
+    transition: 0.3s;
+}
+timechoice12{
+    -fx-font-family: 'Pixelify Sans';
+    -fx-font-size: 25px;
+    -fx-text-fill: black;
+}
+#ticbutton2:hover{
+    -fx-font-size: 70px;
+    -fx-border-width: 5px;
+    -fx-border-color: #000000;
+    -fx-background-color: #9e9e9d;
+    -fx-font-family: 'Pixelify Sans';
+    -fx-cursor: hand;
+}
+
+#ticbutton3{
+    -fx-font-size: 70px;
+    -fx-border-width: 5px;
+    -fx-border-color: #000000;
+    -fx-background-color: white;
+    -fx-font-family: 'Pixelify Sans';
+    transition: 0.3s;
+    -fx-cursor: pointer;
+}
+#ticbutton3:hover{
+    -fx-font-size: 70px;
+    -fx-border-width: 5px;
+    -fx-border-color: #000000;
+    -fx-background-color: #9e9e9d;
+    -fx-font-family: 'Pixelify Sans';
+    -fx-cursor: hand;
+}
+
+#ticbutton4{
+    -fx-font-size: 70px;
+    -fx-border-width: 5px;
+    -fx-border-color: #000000;
+    -fx-background-color: white;
+    -fx-font-family: 'Pixelify Sans';
+    transition: 0.3s;
+}
+
+#ticbutton4:hover{
+    -fx-font-size: 70px;
+    -fx-border-width: 5px;
+    -fx-border-color: #000000;
+    -fx-background-color: #9e9e9d;
+    -fx-font-family: 'Pixelify Sans';
+    -fx-cursor: hand;
+}
+
+#ticbutton5{
+    -fx-font-size: 60px;
+    -fx-border-width: 5px;
+    -fx-border-color: #000000;
+    -fx-background-color: white;
+    -fx-font-family: 'Pixelify Sans';
+    transition: 0.3s;
+}
+
+#ticbutton5:hover{
+    -fx-font-size: 60px;
+    -fx-border-width: 5px;
+    -fx-border-color: #000000;
+    -fx-background-color: #9e9e9d;
+    -fx-font-family: 'Pixelify Sans';
+    -fx-cursor: hand;
+}
+#ticbutton6{
+    -fx-font-size: 70px;
+    -fx-border-width: 5px;
+    -fx-border-color: #000000;
+    -fx-background-color: white;
+    -fx-font-family: 'Pixelify Sans';
+    transition: 0.3s;
+}
+
+#ticbutton6:hover{
+    -fx-font-size: 70px;
+    -fx-border-width: 5px;
+    -fx-border-color: #000000;
+    -fx-background-color: #9e9e9d;
+    -fx-font-family: 'Pixelify Sans';
+    -fx-cursor: hand;
+}
+#ticbutton7{
+    -fx-font-size: 70px;
+    -fx-border-width: 5px;
+    -fx-border-color: #000000;
+    -fx-background-color: white;
+    -fx-font-family: 'Pixelify Sans';
+    transition: 0.3s;
+}
+#ticbutton7:hover{
+    -fx-font-size: 70px;
+    -fx-border-width: 5px;
+    -fx-border-color: #000000;
+    -fx-background-color: #9e9e9d;
+    -fx-font-family: 'Pixelify Sans';
+    -fx-cursor: hand;
+}
+#ticbutton8{
+    -fx-font-size: 70px;
+    -fx-border-width: 5px;
+    -fx-border-color: #000000;
+    -fx-background-color: white;
+    -fx-font-family: 'Pixelify Sans';
+    transition: 0.3s;
+}
+
+#ticbutton8:hover{
+    -fx-font-size: 70px;
+    -fx-border-width: 5px;
+    -fx-border-color: #000000;
+    -fx-background-color: #9e9e9d;
+    -fx-font-family: 'Pixelify Sans';
+    -fx-cursor: hand;
+}
+#ticbutton9{
+    -fx-font-size: 70px;
+    -fx-border-width: 5px;
+    -fx-border-color: #000000;
+    -fx-background-color: white;
+    -fx-font-family: 'Pixelify Sans';
+    transition: 0.3s;
+}
+
+#ticbutton9:hover{
+    -fx-font-size: 70px;
+    -fx-border-width: 5px;
+    -fx-border-color: #000000;
+    -fx-background-color: #9e9e9d;
+    -fx-font-family: 'Pixelify Sans';
+    -fx-cursor: hand;
+}
+#returnbutton3{
+    -fx-pref-width: 250px;
+    -fx-pref-height: 75px;
+    -fx-background-image: url("return.png");
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    transition: 0.3s;
+}
+#returnbutton3:hover{
+    -fx-pref-width: 250px;
+    -fx-pref-height: 75px;
+    -fx-background-image: url("returnhov.png");
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-cursor: hand;
+}
+
+#returnbutton4{
+    -fx-pref-width: 250px;
+    -fx-pref-height: 75px;
+    -fx-background-image: url("return.png");
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    transition: 0.3s;
+}
+#returnbutton4:hover{
+    -fx-pref-width: 250px;
+    -fx-pref-height: 75px;
+    -fx-background-image: url("returnhov.png");
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-cursor: hand;
+}
+
+#about{
+    -fx-pref-width: 280px;
+    -fx-pref-height: 82px;
+    -fx-background-image: url("buttonabout.png");
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    transition: 0.3s;
+}
+
+#about:hover{
+    -fx-pref-width: 280px;
+    -fx-pref-height: 82px;
+    -fx-background-image: url("abouthov.png");
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-cursor: hand;
+}
+
+#scene1{
+    -fx-background-color: #8bd7f7;
+}
+#gamepane{
+
+}
+#arena{
+    -fx-pref-width: 400px;
+    -fx-pref-height: 100px;
+    -fx-background-image: url("arena.png");
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+}
+#instructions{
+    -fx-pref-width: 280px;
+    -fx-pref-height: 82px;
+    -fx-background-image: url("app.png");
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    transition: 0.3s;
+}
+
+#instructions:hover{
+    -fx-pref-width: 280px;
+    -fx-pref-height: 82px;
+    -fx-background-image: url("hovguide.png");
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-cursor: hand;
+}
+
+#choiceBox{
+    -fx-pref-width: 200px;
+    -fx-pref-height: 50px;
+    -fx-background-image: url("newselect.png");
+    -fx-background-color: transparent;
+    -fx-shape: "";
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-font-size: 50px;
+    transition: 0.3s;
+}
+
+#choiceBox:hover{
+    -fx-pref-width: 200px;
+    -fx-pref-height: 50px;
+    -fx-background-image: url("hoverselect.png");
+    -fx-background-color: transparent;
+    -fx-shape: "";
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-font-size: 18px;
+    -fx-cursor: hand;
+}
+
+
+#choiceBox1{
+    -fx-pref-width: 200px;
+    -fx-pref-height: 50px;
+    -fx-background-image: url("newselect.png");
+    -fx-background-color: transparent;
+    -fx-shape: "";
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-font-size: 18px;
+    transition: 0.3s;
+}
+
+#choiceBox1:hover{
+    -fx-pref-width: 200px;
+    -fx-pref-height: 50px;
+    -fx-background-image: url("hoverselect.png");
+    -fx-background-color: transparent;
+    -fx-shape: "";
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-font-size: 18px;
+    -fx-cursor: hand;
+}
+#cloud1{
+    -fx-pref-width: 150px;
+    -fx-pref-height: 100px;
+    -fx-background-image: url("cloud.png");
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+}
+
+#cloud2{
+    -fx-pref-width: 230px;
+    -fx-pref-height: 100px;
+    -fx-background-image: url("cloud2.png");
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+}
+#tooltip1{
+    -fx-border-color: black;
+    -fx-border-width: 5px;
+    -fx-text-fill: black;
+    -fx-background-color: white;
+    -fx-font-family: "Pixelify Sans";
+    -fx-font-size: 18px;
+}
+#tooltipexit{
+    -fx-border-color: black;
+    -fx-border-width: 5px;
+    -fx-text-fill: black;
+    -fx-background-color: white;
+    -fx-font-family: "Pixelify Sans";
+    -fx-font-size: 18px;
+}
+
+#tooltipguide{
+    -fx-border-color: black;
+    -fx-border-width: 5px;
+    -fx-text-fill: black;
+    -fx-background-color: white;
+    -fx-font-family: "Pixelify Sans";
+    -fx-font-size: 18px;
+}
+
+#tooltipabout{
+    -fx-border-color: black;
+    -fx-border-width: 5px;
+    -fx-text-fill: black;
+    -fx-background-color: white;
+    -fx-font-family: "Pixelify Sans";
+    -fx-font-size: 18px;
+}
+
+#starttip{
+    -fx-border-color: black;
+    -fx-border-width: 5px;
+    -fx-text-fill: black;
+    -fx-background-color: white;
+    -fx-font-family: "Pixelify Sans";
+    -fx-font-size: 18px;
+}
+
+#returntip{
+    -fx-border-color: black;
+    -fx-border-width: 5px;
+    -fx-text-fill: black;
+    -fx-background-color: white;
+    -fx-font-family: "Pixelify Sans";
+    -fx-font-size: 18px;
+}
+
+#tooltiptime{
+    -fx-border-color: black;
+    -fx-border-width: 5px;
+    -fx-text-fill: black;
+    -fx-background-color: white;
+    -fx-font-family: "Pixelify Sans";
+    -fx-font-size: 18px;
+}
+.choice-box .arrow {
+    -fx-background-color: -fx-mark-highlight-color, -fx-mark-color;
+    -fx-background-insets: 1 0 -1 0, 0;
+    /* padding determines the size of the arrow;
+       this should match the design size in the SVG */
+    -fx-padding: 0.166667em 0.333333em 0.166667em 0.333333em; /* 2 3.5 2 3.5 */
+    -fx-shape: "";
+}
+
+#playershow{
+    -fx-font-family: 'Pixelify Sans';
+    -fx-font-size: 40px;
+    /*-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0.0, 0.0);*/
+}
+#xplayer{
+    -fx-border-color: black;
+    -fx-background-color: #5594fd;
+}
+#oplayer{
+    -fx-border-color: black;
+}
+#x{
+    -fx-text-fill: #5594fd;
+}
+#o{
+    -fx-text-fill: #fe7c68;
+}
+#choiceBox{
+    -fx-font-size: 18px;
+}
+
+#label9{
+    -fx-font-family: 'Pixelify Sans';
+    -fx-font-size: 25px;
+    -fx-text-fill: black;
+}
+#timechoice{
+    -fx-font-family: 'Pixelify Sans';
+    -fx-font-size: 25px;
+    -fx-text-fill: black;
+}
+
+#scenepane{
+    -fx-background-color: #8bd7f7;
+}
+#playertime1{
+    -fx-font-family: "Pixelify Sans";
+    -fx-font-size: 30px;
+}
+#playertime2{
+    -fx-font-family: "Pixelify Sans";
+    -fx-font-size: 30px;
+}
+
+#textabout3{
+   -fx-font-family: "Pixelify Sans";
+    -fx-font-size: 20px;
+}
+#textabout113{
+    -fx-font-family: "Pixelify Sans";
+    -fx-font-size: 20px;
+}
+#textabout4{
+    -fx-font-family: "Pixelify Sans";
+    -fx-font-size: 20px;
+}
+
+#textabout5{
+    -fx-font-family: "Pixelify Sans";
+    -fx-font-size: 20px;
+}
+
+#textabout1{
+    -fx-font-family: "Pixelify Sans";
+    -fx-font-size: 30px;
+}
+
+#textabout2{
+    -fx-font-family: "Pixelify Sans";
+    -fx-font-size: 20px;
+}
+
+#textabout6{
+    -fx-font-family: "Pixelify Sans";
+    -fx-font-size: 20px;
+}
+
+#textabout7{
+    -fx-font-family: "Pixelify Sans";
+    -fx-font-size: 20px;
+}
+
+#textabout8{
+    -fx-font-family: "Pixelify Sans";
+    -fx-font-size: 30px;
+}
+
+#textabout9{
+    -fx-font-family: "Pixelify Sans";
+    -fx-font-size: 20px;
+}
+
+#textabout10{
+    -fx-font-family: "Pixelify Sans";
+    -fx-font-size: 20px;
+}
+
+#textabout11{
+    -fx-font-family: "Pixelify Sans";
+    -fx-font-size: 20px;
+}
+
+#textabout12{
+    -fx-font-family: "Pixelify Sans";
+    -fx-font-size: 20px;
+}
+
+#textabout13{
+    -fx-font-family: "Pixelify Sans";
+    -fx-font-size: 20px;
+}
+
+#textabout14{
+    -fx-font-family: "Pixelify Sans";
+    -fx-font-size: 20px;
+}
+
+#textabout15{
+    -fx-font-family: "Pixelify Sans";
+    -fx-font-size: 20px;
+}
+
+#textabout16{
+    -fx-font-family: "Pixelify Sans";
+    -fx-font-size: 20px;
+}
+
+#textabout17{
+    -fx-font-family: "Pixelify Sans";
+    -fx-font-size: 20px;
+}
+
+#textabout18{
+    -fx-font-family: "Pixelify Sans";
+    -fx-font-size: 20px;
+}
+#aboutpane{
+    -fx-background-color:  #8bd7f7;
+}
+#textabout19{
+    -fx-font-family: "Pixelify Sans";
+    -fx-font-size: 30px;
+}
+#abouty{
+    -fx-pref-width: 400px;
+    -fx-pref-height: 100px;
+    -fx-background-image: url("abouty.png");
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+}
+#hill1{
+    -fx-pref-width: 350px;
+    -fx-pref-height: 170px;
+    -fx-background-image: url("hill.png");
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+}
+#hill2{
+    -fx-pref-width: 260px;
+    -fx-pref-height: 120px;
+    -fx-background-image: url("hill.png");
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+}
+#inspane{
+    -fx-background-color: #8bd7f7;
+}
+#titlein{
+    -fx-pref-width: 550px;
+    -fx-pref-height: 100px;
+    -fx-background-image: url("guidey.png");
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+}
+
+
+.dialog{
+    -fx-border-color: black;
+    -fx-border-width: 3px;
+    -fx-font-family: "Pixelify Sans";
+    -fx-background-color: #8bd7f7;
+}
+
+.dialog .button{
+    -fx-pref-width: 100px;
+    -fx-pref-height: 50px;
+    -fx-background-image: url("close.png");
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-text-fill: transparent;
+}
+
+.dialog .button:hover{
+    -fx-pref-width: 100px;
+    -fx-pref-height: 50px;
+    -fx-background-image: url("closeho.png");
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-text-fill: transparent;
+    -fx-cursor: hand;
+}
+
+.dialog > *.content.label {
+    -fx-font-size: 45px;
+    -fx-text-fill: black;
+    -fx-text-alignment: center;
+}
+
+.dialog2{
+    -fx-border-color: black;
+    -fx-border-width: 3px;
+    -fx-font-family: "Pixelify Sans";
+    -fx-background-color: #8bd7f7;
+}
+
+
+.dialog2 .button{
+    -fx-border-color: black;
+    -fx-border-width: 5px;
+    -fx-text-fill: black;
+    -fx-background-color: white;
+    -fx-font-family: "Pixelify Sans";
+    -fx-font-size: 18px;
+    transition: 0.3s;
+}
+.dialog2 .button:hover{
+    -fx-background-color: grey;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+.dialog2 > *.content.label {
+    -fx-font-size: 45px;
+    -fx-text-fill: black;
+    -fx-text-alignment: center;
+}
+.dialog2 > *.header-panel{
+    -fx-font-size: 25px;
+    -fx-font-family: "Pixelify Sans";
+    -fx-background-color: #8bd7f7;
+}
+
+#labelhuman{
+    -fx-font-size: 30px;
+    -fx-font-family: "Pixelify Sans";
+}
+
+#labelcpu{
+    -fx-font-size: 30px;
+    -fx-font-family: "Pixelify Sans";
+}
+
+#movelabel{
+    -fx-font-size: 25px;
+    -fx-font-family: "Pixelify Sans";
+    -fx-text-fill: red;
+}
+
+#tooltip1player{
+    -fx-border-color: black;
+    -fx-border-width: 5px;
+    -fx-text-fill: black;
+    -fx-background-color: white;
+    -fx-font-family: "Pixelify Sans";
+    -fx-font-size: 18px;
+}
+#hyperlink{
+    -fx-font-size: 30px;
+    -fx-font-family: "Pixelify Sans";
+    -fx-text-fill: black;
+    -fx-border-color: black, transparent, black;
+    -fx-border-width: 0 0 1 0, 0 0 1 0, 0 0 1 0;
+    -fx-border-insets: 0 0 1 0, 0 0 2 0, 0 0 3 0;
+    transition: 0.3s;
+}
+#hyperlink:hover{
+    -fx-font-size: 30px;
+    -fx-font-family: "Pixelify Sans";
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+#tooltipweb{
+    -fx-border-color: black;
+    -fx-border-width: 5px;
+    -fx-text-fill: black;
+    -fx-background-color: white;
+    -fx-font-family: "Pixelify Sans";
+    -fx-font-size: 18px;
+}
+#scorelabel{
+    -fx-font-size: 30px;
+    -fx-font-family: "Pixelify Sans";
+}
+
+#scorelabel1{
+    -fx-font-size: 30px;
+    -fx-font-family: "Pixelify Sans";
+}
+
+#scorelabel2{
+    -fx-font-size: 30px;
+    -fx-font-family: "Pixelify Sans";
+}
+
+#scorelabel3{
+    -fx-font-size: 30px;
+    -fx-font-family: "Pixelify Sans";
+}
+
+#labelrights{
+    -fx-font-size: 30px;
+    -fx-font-family: "Pixelify Sans";
+}
+
+#pipe{
+    -fx-pref-width: 100px;
+    -fx-pref-height: 100px;
+    -fx-background-image: url("pipe.png");
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+}
+#longpipe{
+    -fx-pref-width: 100px;
+    -fx-pref-height: 300px;
+    -fx-background-image: url("longpipe.png");
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+}
+
+#xicon{
+    -fx-pref-width: 50px;
+    -fx-pref-height: 100px;
+    -fx-background-image: url("xicon.png");
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+}
+
+#oicon{
+    -fx-pref-width: 50px;
+    -fx-pref-height: 100px;
+    -fx-background-image: url("oicon.png");
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+}
+
+#longpipe2{
+    -fx-pref-width: 100px;
+    -fx-pref-height: 300px;
+    -fx-background-image: url("longpipe2.png");
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+}
+
+#startgamelabel{
+    -fx-font-family: "Pixelify Sans";
+    -fx-font-size: 30px;
+}
+

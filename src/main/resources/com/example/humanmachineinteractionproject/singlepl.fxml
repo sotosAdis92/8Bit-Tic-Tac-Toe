@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="scenepane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="890.0" prefWidth="1271.0" stylesheets="@app.css" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.humanmachineinteractionproject.Controller3">
+   <children>
+      <AnchorPane fx:id="gamepane2" layoutX="363.0" layoutY="244.0" prefHeight="517.0" prefWidth="546.0" stylesheets="@app.css">
+         <children>
+            <Button fx:id="ticbutton1" layoutX="33.0" layoutY="32.0" mnemonicParsing="false" prefHeight="145.0" prefWidth="145.0" stylesheets="@app.css" />
+            <Button fx:id="ticbutton2" layoutX="202.0" layoutY="32.0" mnemonicParsing="false" prefHeight="145.0" prefWidth="145.0" stylesheets="@app.css" />
+            <Button fx:id="ticbutton3" layoutX="369.0" layoutY="32.0" mnemonicParsing="false" prefHeight="145.0" prefWidth="145.0" stylesheets="@app.css" />
+            <Button fx:id="ticbutton4" layoutX="33.0" layoutY="195.0" mnemonicParsing="false" prefHeight="145.0" prefWidth="145.0" stylesheets="@app.css" />
+            <Button fx:id="ticbutton5" layoutX="202.0" layoutY="195.0" mnemonicParsing="false" prefHeight="145.0" prefWidth="145.0" stylesheets="@app.css" />
+            <Button fx:id="ticbutton6" layoutX="369.0" layoutY="195.0" mnemonicParsing="false" prefHeight="145.0" prefWidth="145.0" stylesheets="@app.css" />
+            <Button fx:id="ticbutton7" layoutX="33.0" layoutY="358.0" mnemonicParsing="false" prefHeight="145.0" prefWidth="145.0" stylesheets="@app.css" />
+            <Button fx:id="ticbutton8" layoutX="202.0" layoutY="358.0" mnemonicParsing="false" prefHeight="145.0" prefWidth="145.0" stylesheets="@app.css" />
+            <Button fx:id="ticbutton9" layoutX="369.0" layoutY="358.0" mnemonicParsing="false" prefHeight="145.0" prefWidth="145.0" stylesheets="@app.css" />
+            <ImageView fitHeight="150.0" fitWidth="3.0" layoutX="160.0" layoutY="296.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+      <Label fx:id="nameLabel" layoutX="68.0" layoutY="386.0" prefWidth="267.0" stylesheets="@app.css">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="nameLabelTwo" layoutX="972.0" layoutY="393.0" stylesheets="@app.css" />
+      <Label fx:id="player2score" layoutX="1125.0" layoutY="478.0" prefHeight="48.0" prefWidth="68.0" stylesheets="@app.css" text="0" />
+      <Button fx:id="startgamebutton" layoutX="461.0" layoutY="783.0" mnemonicParsing="false" onAction="#startGame" onMouseEntered="#enteredButton6" onMouseExited="#exitedButton6" prefHeight="45.0" prefWidth="487.0" stylesheets="@app.css">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <tooltip>
+            <Tooltip fx:id="starttip" text="Press to Start Another Game" />
+         </tooltip>
+      </Button>
+      <Label fx:id="playershow" layoutX="482.0" layoutY="175.0" prefHeight="48.0" prefWidth="308.0" text="Player X's Turn" textAlignment="CENTER">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="hill2" layoutX="945.0" layoutY="780.0" AnchorPane.bottomAnchor="-13.0" />
+      <Label fx:id="hill2" layoutX="68.0" layoutY="783.0" />
+      <Label fx:id="cloud1" layoutX="811.0" layoutY="63.0" />
+      <Label fx:id="cloud2" layoutX="984.0" layoutY="25.0" />
+      <Label fx:id="cloud1" layoutX="317.0" layoutY="50.0" />
+      <Label fx:id="arena" layoutX="436.0" layoutY="25.0" prefWidth="426.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="cloud2" layoutX="83.0" layoutY="125.0" />
+      <Button fx:id="returnbutton3" layoutX="26.0" layoutY="25.0" mnemonicParsing="false" onAction="#switchToSceneMain" onMouseEntered="#enteredButton5" onMouseExited="#exitedButton5" prefHeight="45.0" prefWidth="213.0">
+         <tooltip>
+            <Tooltip fx:id="returntip" text="Return to the main menu" />
+         </tooltip>
+      </Button>
+      <Label fx:id="labelhuman" layoutX="115.0" layoutY="530.0" text="( Human )" />
+      <Label fx:id="labelcpu" layoutX="1043.0" layoutY="530.0" text="( CPU )" />
+      <Label fx:id="player1score" layoutX="222.0" layoutY="478.0" prefHeight="48.0" prefWidth="68.0" stylesheets="@app.css" text="0" />
+      <Label fx:id="scorelabel3" layoutX="1019.0" layoutY="483.0" text="Score:" />
+      <Label fx:id="scorelabel2" layoutX="115.0" layoutY="483.0" text="Score:" />
+      <Label fx:id="movelabel" layoutX="465.0" layoutY="225.0" text="Illegal Move, Space Occupied" />
+      <Label fx:id="startgamelabel" layoutX="326.0" layoutY="221.0" text="Press &quot;Start Game&quot; To Start a new Game" />
+   </children>
+</AnchorPane>
