@@ -5,10 +5,10 @@ The game was made by myself, with copyright free sound effects I found online.
 
 Runnig the App:
 
-``bash
-git clone https://github.com/sotosAdis92/allTheMethods.git
-cd spring-react
-``
+```bash
+git clone https://github.com/sotosAdis92/8Bit-Tic-Tac-Toe.git
+cd 8Bit-Tic-Tac-Toe
+```
 
 Below are some screenshots taken from the latest version of the game:
 
