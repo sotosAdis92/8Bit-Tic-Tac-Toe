@@ -12,11 +12,11 @@ The Two Player Mode:
 ![image alt](https://github.com/sotosAdis92/8Bit-Tic-Tac-Toe/blob/main/screenshots/2playermode.JPG?raw=true)
 
 The About Page:
-![image alt]
+![image alt](https://github.com/sotosAdis92/8Bit-Tic-Tac-Toe/blob/main/screenshots/aboutPage.png?raw=true)
 
 Warning Panel:
-![image alt]
+![image alt]()
 
 Win Panel:
-![image alt]
+![image alt]()
 
