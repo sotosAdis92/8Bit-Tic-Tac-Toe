@@ -1,32 +1,52 @@
-## 8BIT TIC TAC TOE
+## About
 
-8Bit Tic Tac Toe is a small game I made with JavaFX in my 3rd Year of university as a project for the class "Human Machine Interaction", that mainly focused on UI practices and UX, the game offers 1 player and 2 player mode with time.
-The game was made by myself, with copyright free sound effects I found online.
+**8Bit Tic Tac Toe** is a retro-styled JavaFX game I built during my 3rd year of university for the *"Human Machine Interaction"* course. The project was all about applying **UI/UX principles**—from visual design to user flow and feedback.
 
-Runnig the App:
+Every pixel, color, and sound effect was chosen to recreate that nostalgic **arcade console feel**. Whether you're playing solo or with a friend, the experience is designed to be intuitive, responsive, and fun.
+
+---
+
+## Features
+
+| Feature | Description |
+|---------|-------------|
+| **1 Player Mode** | Battle against a simple AI opponent |
+| **2 Player Mode** | Play locally with a friend |
+| **Timed Turns** | Each move is tracked—keep the pace up! |
+| **8-bit Sounds** | Copyright-free SFX that enhance the retro vibe |
+| **Pixel Art UI** | Custom-designed interface with authentic arcade aesthetics |
+| **About Page** | Learn more about the game and its creator |
+
+---
+
+## Screenshots
+
+### Main Menu
+![Main Menu](https://github.com/sotosAdis92/8Bit-Tic-Tac-Toe/blob/main/screenshots/mainmenu.png?raw=true)
+
+### One Player Mode
+![1 Player Mode](https://github.com/sotosAdis92/8Bit-Tic-Tac-Toe/blob/main/screenshots/1player.png?raw=true)
+
+### Two Player Mode
+![2 Player Mode](https://github.com/sotosAdis92/8Bit-Tic-Tac-Toe/blob/main/screenshots/2playermode.JPG?raw=true)
+
+### About Page
+![About Page](https://github.com/sotosAdis92/8Bit-Tic-Tac-Toe/blob/main/screenshots/aboutPage.png?raw=true)
+
+### Warning Panel
+![Warning Panel](https://github.com/sotosAdis92/8Bit-Tic-Tac-Toe/blob/main/screenshots/warning.png?raw=true)
+
+### Win Panel
+![Win Panel](https://github.com/sotosAdis92/8Bit-Tic-Tac-Toe/blob/main/screenshots/winnerofround.png?raw=true)
+
+---
+
+## Getting Started
+
+Clone the repository:
 
 ```bash
 git clone https://github.com/sotosAdis92/8Bit-Tic-Tac-Toe.git
 cd 8Bit-Tic-Tac-Toe
 ```
-
-Below are some screenshots taken from the latest version of the game:
-
-The Main Menu:
-![image alt](https://github.com/sotosAdis92/8Bit-Tic-Tac-Toe/blob/main/screenshots/mainmenu.png?raw=true)
-
-The One Player Mode:
-![image alt](https://github.com/sotosAdis92/8Bit-Tic-Tac-Toe/blob/main/screenshots/1player.png?raw=true)
-
-The Two Player Mode:
-![image alt](https://github.com/sotosAdis92/8Bit-Tic-Tac-Toe/blob/main/screenshots/2playermode.JPG?raw=true)
-
-The About Page:
-![image alt](https://github.com/sotosAdis92/8Bit-Tic-Tac-Toe/blob/main/screenshots/aboutPage.png?raw=true)
-
-Warning Panel:
-![image alt](https://github.com/sotosAdis92/8Bit-Tic-Tac-Toe/blob/main/screenshots/warning.png?raw=true)
-
-Win Panel:
-![image alt](https://github.com/sotosAdis92/8Bit-Tic-Tac-Toe/blob/main/screenshots/winnerofround.png?raw=true)
 
