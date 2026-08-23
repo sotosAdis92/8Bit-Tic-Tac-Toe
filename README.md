@@ -18,5 +18,5 @@ Warning Panel:
 ![image alt](https://github.com/sotosAdis92/8Bit-Tic-Tac-Toe/blob/main/screenshots/warning.png?raw=true)
 
 Win Panel:
-![image alt]()
+![image alt](https://github.com/sotosAdis92/8Bit-Tic-Tac-Toe/blob/main/screenshots/winnerofround.png?raw=true)
 
