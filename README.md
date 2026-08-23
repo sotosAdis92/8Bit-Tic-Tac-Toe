@@ -9,7 +9,7 @@ The One Player Mode:
 ![image alt](https://github.com/sotosAdis92/8Bit-Tic-Tac-Toe/blob/main/screenshots/1player.png?raw=true)
 
 The Two Player Mode:
-![image alt]
+![image alt](https://github.com/sotosAdis92/8Bit-Tic-Tac-Toe/blob/main/screenshots/2playermode.JPG?raw=true)
 
 The About Page:
 ![image alt]
