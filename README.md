@@ -1,4 +1,5 @@
-#8BIT TIC TAC TOE
+## 8BIT TIC TAC TOE
+
 8Bit Tic Tac Toe is a small game I made with JavaFX in my 3rd Year of university as a project for the class "Human Machine Interaction", that mainly focused on UI practices and UX, the game offers 1 player and 2 player mode with time.
 The game was made by myself, with copyright free sound effects I found online
 
