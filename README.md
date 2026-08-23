@@ -50,3 +50,24 @@ git clone https://github.com/sotosAdis92/8Bit-Tic-Tac-Toe.git
 cd 8Bit-Tic-Tac-Toe
 ```
 
+## Prerequisites
+
+- **Java** – JDK 8 or higher
+-  **JavaFX SDK** – Properly configured in your IDE or build tool
+
+---
+
+## Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+|  **Java** | Game logic and backend |
+|  **JavaFX** | UI framework and rendering |
+|  **Scene Builder** | Visual layout design |
+
+---
+
+##  License
+
+This project is open-source and available under the **MIT License**.
+
