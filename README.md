@@ -61,7 +61,7 @@ cd 8Bit-Tic-Tac-Toe
 
 | Technology | Purpose |
 |------------|---------|
-|  **Java** | Game logic and backend |
+|  **Java** | Game logic |
 |  **JavaFX** | UI framework and rendering |
 |  **Scene Builder** | Visual layout design |
 
