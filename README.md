@@ -15,7 +15,7 @@ The About Page:
 ![image alt](https://github.com/sotosAdis92/8Bit-Tic-Tac-Toe/blob/main/screenshots/aboutPage.png?raw=true)
 
 Warning Panel:
-![image alt]()
+![image alt](https://github.com/sotosAdis92/8Bit-Tic-Tac-Toe/blob/main/screenshots/warning.png?raw=true)
 
 Win Panel:
 ![image alt]()
