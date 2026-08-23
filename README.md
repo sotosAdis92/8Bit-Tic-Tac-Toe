@@ -2,5 +2,21 @@
 
 Below are some screenshots taken from the latest version of the game:
 
+The Main Menu:
+![image alt](https://github.com/sotosAdis92/8Bit-Tic-Tac-Toe/blob/main/screenshots/mainmenu.png?raw=true)
+
 The One Player Mode:
 ![image alt](https://github.com/sotosAdis92/8Bit-Tic-Tac-Toe/blob/main/screenshots/1player.png?raw=true)
+
+The Two Player Mode:
+![image alt]
+
+The About Page:
+![image alt]
+
+Warning Panel:
+![image alt]
+
+Win Panel:
+![image alt]
+
