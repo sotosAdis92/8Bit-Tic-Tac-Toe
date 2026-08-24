@@ -5,6 +5,34 @@
 Every pixel, color, and sound effect was chosen to recreate that nostalgic **arcade console feel**. Whether you're playing solo or with a friend, the experience is designed to be intuitive, responsive, and fun.
 
 ---
+---
+
+## Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/sotosAdis92/8Bit-Tic-Tac-Toe.git
+cd 8Bit-Tic-Tac-Toe
+```
+
+## Prerequisites
+
+- **Java** – JDK 8 or higher
+-  **JavaFX SDK** – Properly configured in your IDE or build tool
+
+---
+
+## Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+|  **Java** | Game logic |
+|  **JavaFX** | UI framework and rendering |
+|  **Scene Builder** | Visual layout design |
+
+---
+
 
 ## Features
 
@@ -39,33 +67,6 @@ Every pixel, color, and sound effect was chosen to recreate that nostalgic **arc
 ### Win Panel
 ![Win Panel](https://github.com/sotosAdis92/8Bit-Tic-Tac-Toe/blob/main/screenshots/winnerofround.png?raw=true)
 
----
-
-## Getting Started
-
-Clone the repository:
-
-```bash
-git clone https://github.com/sotosAdis92/8Bit-Tic-Tac-Toe.git
-cd 8Bit-Tic-Tac-Toe
-```
-
-## Prerequisites
-
-- **Java** – JDK 8 or higher
--  **JavaFX SDK** – Properly configured in your IDE or build tool
-
----
-
-## Tech Stack
-
-| Technology | Purpose |
-|------------|---------|
-|  **Java** | Game logic |
-|  **JavaFX** | UI framework and rendering |
-|  **Scene Builder** | Visual layout design |
-
----
 
 ##  License
 
