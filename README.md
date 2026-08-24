@@ -5,7 +5,6 @@
 Every pixel, color, and sound effect was chosen to recreate that nostalgic **arcade console feel**. Whether you're playing solo or with a friend, the experience is designed to be intuitive, responsive, and fun.
 
 ---
----
 
 ## Getting Started
 
